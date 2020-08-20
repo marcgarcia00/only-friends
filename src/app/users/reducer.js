@@ -8,15 +8,18 @@ const initState = {
 
 
 const UserReducer = (state = initState, action) => {
-  switch(action.type) {
+  switch (action.type) {
     case UserConstants.LOGIN_SUCCESS:
       return {
-        ...state,       
+        ...state,
         isLoggedIn: true
       }
-    default: 
-      return {...initState}
+
+    default:
+      return {
+        ...initState
+      }
   }
 }
-export default UserReducer
+export default UserReducer;
 

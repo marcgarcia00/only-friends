@@ -5,3 +5,4 @@ export const loginSuccess = () => {
     type: UserConstants.LOGIN_SUCCESS
   };
 }
+

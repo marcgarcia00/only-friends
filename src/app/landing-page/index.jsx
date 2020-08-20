@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 class LandingPage extends Component {
   constructor(props) {
@@ -8,9 +9,15 @@ class LandingPage extends Component {
 
   render() {
     return (
-      <div>
-        <p>Landing Page</p>
-      </div>
+      <Container>
+        <Row>
+          <Col>
+          LandingPage
+          </Col>
+          <Col>
+          </Col>
+        </Row>
+      </Container>
     )
   }
 }
