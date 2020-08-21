@@ -1,0 +1,17 @@
+.header-contents {
+  padding: 10px;
+}
+
+.menu-options {
+  margin: 10px;
+}
+
+.header-container {
+  display: block;
+  background-color: var(--main-bg-color);;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+}
