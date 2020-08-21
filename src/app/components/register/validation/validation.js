@@ -9,10 +9,8 @@ export function isEmpty(item) {
   return item === "" || item === undefined;
 }
 
-export function isObjectEmpty(obj) {
-  console.log('loop beginning');
+export function objectHasEmptyFields(obj) {
   for(let property in obj) {
-    console.log('prop', property);
     if(obj[property] === "") return true;
   }
   return false;
